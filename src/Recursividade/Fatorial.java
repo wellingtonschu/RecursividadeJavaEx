@@ -4,9 +4,9 @@ public class Fatorial {
 
 	public static double Fatorial (double num){
 		if(num <= 1)
-			return num;
+			return 1;
 		else
-			return num;
+			return num * Fatorial(num - 1);
 	}
 
 }
