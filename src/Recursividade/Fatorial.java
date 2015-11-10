@@ -1,8 +1,10 @@
 package Recursividade;
 
-public class Fatorial {
+public class Fatorial
+{
 
-	public static double Fatorial (double num){
+	public static double Fatorial (double num)
+	{
 		if(num <= 1)
 			return 1;
 		else
